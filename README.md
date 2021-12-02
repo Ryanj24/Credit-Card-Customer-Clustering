@@ -1,2 +1,4 @@
 # Credit-Card-Customer-Clustering
-Segmentation of credit card customers using a K-means clustering algorithm
+The data in this analysis contains 8,950 observations spanning 18 features and relate to behaviours of active credit card holders. The data was obtained from [Kaggle](https://www.kaggle.com/arjunbhasin2013/ccdata) and the aim of this analysis is to segment the customers based on behaviours and characteristics provided by the 18 features.
+
+The analysis contains data cleaning relating to feature removal, missing values, data tranformation and outliers before moving onto exploratory data visualisations to explore trends in the data. This is followed by variable standardisation and dimensionality reduction via Principal Component Analysis (PCA) before fitting the K-means algorithm and determining the optimal number of clusters. The analysis finalises by visualisation of the clusters across the principal components along with the variables in the dataset before concluding remarks are provided along with future improvements that could be made.
